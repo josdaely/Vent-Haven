@@ -1,0 +1,140 @@
+header{
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav {
+  background-color: pink;
+  padding: 1rem;
+  border-radius: 2rem;
+  font-size: 75%;
+}
+
+nav ul{
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+nav a {
+  padding:0.5rem 2rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: blueviolet; 
+}
+
+nav a:hover{
+  background-color: yellow;
+  border-radius: 2rem;
+  color: lightblue
+}
+
+body{
+  background-color: rgb(254, 222, 211);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.wrapper{
+  max-width: 64rem;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+  border-color :coral;
+  border-radius:1px;
+  box-shadow: 6px 6px 6px ;
+}
+
+header{
+  background-color: aqua;
+  padding-left: 1rem ;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-right: 1rem;
+  background-image:url(images/bkg_header_white.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center left;
+}
+
+header h1{
+  font-size: 150%;
+  margin-left: 10rem;
+}
+
+main{
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  font-size: 125%;
+  line-height: 1.4rem;
+}
+
+main h2{
+  size: 50%;
+  border-bottom: 1rem solid yellow;
+}
+
+footer{
+  background-image: url(images/bkg_footer.png);
+  text-align: center;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+img{
+  max-width: 100%;
+  height: auto;
+  }
+
+  .home-grid{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    gap: 2rem;
+}
+
+.visit{
+  font-size: 90%;
+  background-color: blueviolet;
+  padding: 1rem;
+  border: 1px solid yellowgreen;
+  background-image: url(images/bkg_column.jpg);
+  background-repeat: no-repeat;
+  background-size: 70%;
+  background-position: 50% 95%;
+}
+
+.dummy-grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 2px;
+}
+
+.dummy-grid img{
+  border: 10px solid white;
+  box-shadow: 6px 6px 6px;
+}
+
+.dummy-grid h3{
+  size: 45%;
+  color: darkseagreen;
+  border-bottom: 1px;
+}
+
+.dummy-grid li{
+  margin-bottom: 1rem;
+  margin-left: 1rem;
+}
+
+.pic-right{
+  float: right;
+  margin-bottom: 1rem;
+  margin-left: 1rem;
+  border: 10px solid white;
+  box-shadow: 6px 6px 6px;
+}
